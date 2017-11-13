@@ -1,5 +1,4 @@
 $("ul").on("click", "li", function(){
-    console.log("workes");
     $(this).toggleClass("completed");
 });
 
@@ -19,6 +18,6 @@ $("input[type='text']").keypress(function(event){
     }
 });
 
-$(".fa-plus").click(function(event){
+$("#toDoListAdder").click(function(event){
     $("input[type='text']").slideToggle(500);
 });
